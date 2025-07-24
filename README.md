@@ -23,6 +23,7 @@ else
 	domain=$1
 fi 
 </code>
+
 ### Shebang
 Shebang luôn là dòng đầu tiên của script, bắt đầu bằng "#!/path". Dòng này chỉ định đường dẫn thông dịch mà tệp thực thi, ví dụ:
 - Python: #!/usr/bin/env python
