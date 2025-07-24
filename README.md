@@ -67,6 +67,23 @@ done
 - Thực thi:
   <img width="1082" height="196" alt="image" src="https://github.com/user-attachments/assets/ed415c78-3122-4681-8951-7b094709896d" />
 
+## Arithmetic
+<code>
+#!/bin/bash
+a=5
+b=10
+
+echo "10 + 10 = $((10 + 10))"
+((a++))
+
+echo "$a"
+echo "Length ARG 1: ${#0}"
+</code>
+
+- Thực thi:
+<img width="1193" height="106" alt="image" src="https://github.com/user-attachments/assets/dc1f4c79-8cb8-44ff-808b-c8e8074b6590" />
+
+
 
 
 
