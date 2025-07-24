@@ -10,8 +10,7 @@ Cơ bản thì sẽ gồm có:
 - Khai báo biến
 - echo (print)
 - Special Variable
-
-<code> <h2> Code mẫu
+<code>
 #!/bin/bash
 # Check for given argument
 if [ $# -eq 0 ]
@@ -24,7 +23,10 @@ else
 	domain=$1
 fi 
 </code>
-
+### Shebang
+Shebang luôn là dòng đầu tiên của script, bắt đầu bằng "#!/path". Dòng này chỉ định đường dẫn thông dịch mà tệp thực thi, ví dụ:
+- Python: #!/usr/bin/env python
+- Perl: #!/usr/bin/env perl
 ## Conditional Excution
 
 
