@@ -32,11 +32,36 @@ Shebang luôn là dòng đầu tiên của script, bắt đầu bằng "#!/path"
 
 ## Conditional Excution
 Không nói nhiều về if-else-fi, while,... Tự tìm hiểu cái này cũng như các toán tử đi. ~~hint: Toán tử về kiểm tra file khá hay~~
+
 <img width="1346" height="986" alt="image" src="https://github.com/user-attachments/assets/b5396691-dfd6-49bc-b331-8c0c520254ab" />
 
 ## Arguments, Variables, and Arrays
 ### Arguments
 Có thể truyền tối đa 9 Arguments `bash test.sh ARG1 ARG2 ... ARG9`. *Vậy $0 cho ta biết về gì ?*
+
+### Variables
+Làm biếng viết quá để cái demo ở đây mai viết tiếp.
+- Code:
+<code>
+#!/bin/bash
+
+echo "Count Parameter: $#"
+echo "Test \"\$@"":"
+for arg in "$@"
+do
+        echo " - Tham số: $arg"
+done
+
+echo "Test \"\$*"":"
+for arg in "$*"
+do
+        echo " - Tham số: $arg"
+done
+</code>
+
+- Thực thi:
+  <img width="1082" height="196" alt="image" src="https://github.com/user-attachments/assets/ed415c78-3122-4681-8951-7b094709896d" />
+
 
 
 
