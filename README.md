@@ -6,7 +6,6 @@ Tự tìm hiểu đi hẹ hẹ
 ## Cấu trúc của một Shell Bash
 <code> 
 #!/bin/bash
-
 # Check for given argument
 if [ $# -eq 0 ]
 then
@@ -16,9 +15,11 @@ then
 	exit 1
 else
 	domain=$1
-fi `
+fi 
 </code>
+
+
 ## Conditional Excution
 
 
-`code cấu ` 
+
