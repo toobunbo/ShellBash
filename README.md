@@ -31,7 +31,12 @@ Shebang luôn là dòng đầu tiên của script, bắt đầu bằng "#!/path"
 *Hơi khó hiểu nhưng mà hiểu được về Scripting và Progarming Lan thì hiểu được thôi, không giải thích nhiều* ~~ngu~~
 
 ## Conditional Excution
-Không nói nhiều về if-else-fi, while,... Tự tìm hiểu cái này cũng như các toán tử đi. ~~hint: Toán tử về kiểm tra file khá hay~~
+Không nói nhiều về if-else-fi, while,... Tự tìm hiểu cái này cũng như các toán tử đi. ~~hint: Toán tử về kiểm tra file khá hay~~:
+- string Operators
+- interger Operators
+- boolean Operators
+- file Operators
+
 
 <img width="1346" height="986" alt="image" src="https://github.com/user-attachments/assets/b5396691-dfd6-49bc-b331-8c0c520254ab" />
 
