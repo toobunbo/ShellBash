@@ -11,7 +11,7 @@ Cơ bản thì sẽ gồm có:
 - echo (print)
 - Special Variable
 
-<code> 
+<code> <h2> Code mẫu
 #!/bin/bash
 # Check for given argument
 if [ $# -eq 0 ]
